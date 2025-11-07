@@ -13,10 +13,9 @@ def test_fib_larger():
     # known value: fib(50) = 12586269025
     assert fib(50) == 12586269025
 
-# def test_negative_raises():
-#     with pytest.raises(ValueError):
-#         TODO
+def test_negative_raises():
+    with pytest.raises(ValueError):
+        fib(-1)
 
 # def test_type_error():
 #     with pytest.raises(TypeError):
-#         TODO

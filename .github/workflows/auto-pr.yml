@@ -22,6 +22,6 @@ jobs:
           body: |
             This pull request was created automatically from the develop branch into main.
           base: main
-          head: develop
+          branch: develop
           draft: false
           labels: automated,sync

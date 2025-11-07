@@ -17,5 +17,5 @@ def test_negative_raises():
     with pytest.raises(ValueError):
         fib(-1)
 
-# def test_type_error():
-#     with pytest.raises(TypeError):
+def test_type_error():
+    raise Exception("This is a test exception for type error")
